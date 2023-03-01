@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height: 60px;
+            width: screen;
+            background-color: black;
+        }
+        .child{
+            display: grid;
+            grid-template-columns:auto auto ;
+        }
+        .coloum-1{
+
+            position: relative;
+             height: 470px;
+            width: 140px;
+            background-color: black;
+            left: 70px;
+            }
+            
+        .child1{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .four{
+            height: 30px;
+            width: 540px;
+            background-color: black;
+        }
+        .five{
+            
+            display: grid;
+            grid-template-columns: auto auto auto;
+        
+           
+        }
+        .data1,.data2,.data3{
+            position: relative;
+            height: 90px;
+            width: 90px;
+            background-color: black;
+            top: 70px;
+        }
+        .parent1{
+            position: relative;
+            width: 540px;
+            height: 70px;
+            background-color: black;
+            top: 120px;
+        }
+       
+       
+       img{
+        position:absolute;
+        top: 18px;
+       }
+      
+       
+    </style>
+</head>
+<body style="background-color:gray;">
+    
+    <div class="parent">
+        <label for="">
+        <P class="child1" style="color: white;">GITHUB</P><br>
+        <img width="60" height="56" alt="GitHub Logomark" class="height-auto" 
+        src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png">
+        </label>
+        </div><br>
+    <div class="child">
+        <div class="coloum-1">1   
+        </div>
+        <div class="coloum-2">
+            <input class="four"placeholder="search" ><br>
+            <div class="five">
+                <div class="data1"></div>
+                <div class="data2"></div>
+                <div class="data3"></div><br>
+            </div>
+            <div class="parent1"></div>
+             </div>
+             
+        </div>
+        
+</body>
+</html>
